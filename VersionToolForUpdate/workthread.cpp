@@ -90,7 +90,14 @@ void WorkThread::run(){
     fileCount = 0;
     fileCount = caculateFileCount(dirname);
     obverser->setFileCount(fileCount);
-    emit sigSetFileMD5("文件个数" + fileCount);
+
+    /*
+     * 下面这句代码,如果去掉QString::number,结果是"文件个数"这个字符串的地址被读取
+     * 然后地址偏移fileCount字节,然后程序就异常了
+     * 在调试这个bug的时候发现bug出现随机,debug模式没有出现过,release偶尔出现
+     * 莫名其妙不合逻辑的bug,原来是个低级错误
+    */
+    emit sigSetFileMD5("文件个数" + QString::number(fileCount));
 
     // try get old version
     int oldversion = 0;
