@@ -45,3 +45,5 @@ Although i decribed the usage on windows system, actually it's a cross-platform 
 So the files inside QTAutoUpdate/bin may be the same with your own app dependent. If so,
 try use the same QT version.
 
+there is a selfupdate project to update QTAutoUpdate.exe itself. just place them in the same directory.
+
