@@ -7,14 +7,19 @@ it's a gui tool which read a directory and produce a 'version.version' file insi
 
 cd to VersionToolForUpdate/bin and run this version tool
 #### ![image](./usage/versiontool1.png)
+
 select a app directory which is about to be deployed in your website
 #### ![image](./usage/versiontool2.png)
+
 wait a second add you will see a 'version.version' file inside this directory.
+
 also deploy this 'version.version' file in your website.
-every time you run version tool, 'version.version' is new. so when a remote user connet to your website, your website
+every time you run version tool, 'version.version' is new. 
+so when a remote user connet to your website, your website
 app directory will be sync to the remote user's app directory
 #### ![image](./usage/versiontool3.png)
 #### ![image](./usage/versiontool4.png)
+
 notice there is a 'versionconfig.ini' file inside the app directory, which you should place it before you run version tool, the ini file like:
 ```cpp
 [info]
