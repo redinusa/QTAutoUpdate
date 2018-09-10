@@ -29,7 +29,7 @@ textversion=1.0.0.1.09101025
 app=app.exe
 #something else
 ```
-the user's app should have a old version ini file like this, even if the app is the first version and not auto updated at all
+the user's app should have a old version ini file like this, even if the app is the first version and never auto updated once
 ### 2.auto update
 copy files inside QTAutoUpdate/bin to your app directory(strictly QTAutoUpdate.exe and app.exe will in the same directory)
 send your app to user after place a 'version.version' and a 'versionconfig.ini' file for the first time.
