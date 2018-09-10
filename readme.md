@@ -1,8 +1,10 @@
 # QTAutoUpdate
 it's a auto update tool for any execute, includes 2 qtcreator projects, based on qt 5.11.1
+
 ## usage
 ### 1.version tool
 it's a gui tool which read a directory and produce a 'version.version' file inside the directory.
+
 cd to VersionToolForUpdate/bin and run this version tool
 #### ![image](./usage/versiontool1.png)
 select a app directory which is about to be deployed in your website
