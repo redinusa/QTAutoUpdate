@@ -12,9 +12,8 @@ select a app directory which is about to be deployed in your website
 #### ![image](./usage/versiontool2.png)
 
 wait a second add you will see a 'version.version' file inside this directory.
-
-also deploy this 'version.version' file in your website.
-every time you run version tool, 'version.version' is new. 
+Also deploy this 'version.version' file in your website.
+Every time you run version tool, 'version.version' is new. 
 so when a remote user connet to your website, your website
 app directory will be sync to the remote user's app directory
 #### ![image](./usage/versiontool3.png)
@@ -40,4 +39,9 @@ notice that i suggest you to run QTAutoUpdate.exe to start you app.exe. the reas
 after update. so pass the argc to QTAutoUpdate.exe which you intend to pass to app.exe.
 
 of cource, if you want to start app.exe first, you can modify the source code in your way
+
+## notice
+Although i decribed the usage on windows system, actually it's a cross-platform tool coded by QT.
+So the files inside QTAutoUpdate/bin may be the same with your own app dependent. If so,
+try use the same QT version.
 
