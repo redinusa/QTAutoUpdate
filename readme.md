@@ -38,7 +38,11 @@ next time you run QTAutoUpdate.exe, user's app will sync by website app automati
 notice that i suggest you to run QTAutoUpdate.exe to start you app.exe. the reason is QTAutoUpdate.exe will run your app.exe set by 'versionconfig.ini' automatically 
 after update. so pass the argc to QTAutoUpdate.exe which you intend to pass to app.exe.
 
-of cource, if you want to start app.exe first, you can modify the source code in your way
+of cource, if you want to start app.exe first, you can modify the source code in your way.
+here are some captured png you may see:
+#### ![image](./usage/autoupdate1.png)
+#### ![image](./usage/autoupdate2.png)
+#### ![image](./usage/autoupdate3.png)
 
 ## notice
 Although i decribed the usage on windows system, actually it's a cross-platform tool coded by QT.
