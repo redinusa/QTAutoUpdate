@@ -55,13 +55,21 @@ there is a selfupdate project to update QTAutoUpdate.exe itself. just place thei
 ## sum up
 so here is the basic flow showing how to use the auto update tools.
 Deploy First Version of your app:
+
 1.place the files in QTAutoUpdate/bin to your app dir;
+
 2.create a 'versionconfig.ini' file in app dir;
+
 3.user version tool to get a 'version.version' file in your app dir;
+
 4.deploy your app for the first time, also place your app in website;
+
 Deploy new version of your app:
+
 1.change 'versionconfig.ini' file after you setup a new version app;
+
 2.user version tool to get a new 'version.version' file in your app dir;
+
 3.put your new app to website;
 
 
