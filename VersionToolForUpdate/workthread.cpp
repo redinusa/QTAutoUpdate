@@ -40,7 +40,7 @@ void WorkThread::enumDir(QXmlStreamWriter& writer, QString _dir, QString releati
             theFile.open(QIODevice::ReadOnly);
 
             qint64 memlimit_32bitCPU = (qint64)1*1024*1024*1024;
-            if(theFile.size() > memlimit_32bitCPU){
+            if(0 == theFile.size() || theFile.size() > memlimit_32bitCPU){
                 qDebug() << info.fileName() << "size big than 1gb, skip";
                 theFile.close();
                 continue;
